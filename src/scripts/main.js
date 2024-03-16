@@ -1,13 +1,13 @@
 AOS.init();
 
-const dataDoEvento = new Date("dec 12, 2024 19:00:00")
+const dataDoEvento = new Date("nov 15, 2023 00:00:00")
 const timeStampDoEvento = dataDoEvento.getTime();
 
 const contaAsHoras = setInterval(function(){
     const agora = new Date()
     const timeStampAtual = agora.getTime();
 
-    const distanciaAteOEvento = timeStampDoEvento - timeStampAtual;
+    const distanciaAteOEvento = timeStampAtual - timeStampDoEvento;
 
     const diasAteOEvento = Math.floor(distanciaAteOEvento / (1000 * 3600 * 24))
     const horasAteOEvento = Math.floor((distanciaAteOEvento % (1000 * 3600 * 24)) / (1000 * 60 * 60))
