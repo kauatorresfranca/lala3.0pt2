@@ -13,6 +13,27 @@
     list-style: none;
 }
 
+header{
+    background-color: pink;
+    padding: 32px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.insta{
+    width: 45px;
+}
+
+footer{
+    padding: 32px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items: center;
+}
+
 .container{
     max-width: 960px;
     width: 100%;

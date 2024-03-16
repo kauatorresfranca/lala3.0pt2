@@ -1,7 +1,7 @@
 @use 'variables';
 
 .hero{
-    padding-top: 64px;
+    padding-top: 100px;
     padding-bottom: 100px;
     background-image: url(../images/img4.jpg);
     background-repeat: no-repeat;
@@ -26,7 +26,6 @@
 
     &__text{
         margin-top: 64px;
-        margin-bottom: 64px;
         font-size: 40px;
         line-height: 56px;
         font-weight: 800;
@@ -47,4 +46,5 @@
 
 #contador{
     color: pink;
+    font-size: 32px;
 }
