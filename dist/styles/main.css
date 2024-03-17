@@ -127,11 +127,11 @@
 }
 
 .event--data-science {
-  background-image: linear-gradient(#89223b, #4f2ac3);
+  background-image: linear-gradient(#89223b, pink);
 }
 
 .event--backend {
-  background-image: linear-gradient(#4f2ac3, pink);
+  background-image: linear-gradient(pink, #aa7c84);
 }
 
 .event--image-left .container {
@@ -150,8 +150,9 @@
   }
 
   .event__image {
+    border-radius: 8px;
     width: 100%;
-    height: 290px;
+    height: 320px;
   }
 
   .event__details {
@@ -202,9 +203,9 @@ header {
 
 footer {
   background-color: pink;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 48px;
   padding: 32px;
   display: flex;
 }

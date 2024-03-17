@@ -10,10 +10,10 @@
         background-image: linear-gradient(variables.$pink1, variables.$pink3);
     }
     &--data-science{
-        background-image: linear-gradient(variables.$pink3, variables.$purple);
+        background-image: linear-gradient(variables.$pink3, variables.$pink1);
     }
     &--backend{
-        background-image: linear-gradient(variables.$purple, variables.$pink1);
+        background-image: linear-gradient(variables.$pink1, variables.$pink2);
     }
 
     &--image-left{
@@ -35,7 +35,8 @@
 
             &__image{
                 width: 100%;
-                height: 290px;
+                height: 320px;
+                border-radius: 8px;
             }
 
             &__details{
