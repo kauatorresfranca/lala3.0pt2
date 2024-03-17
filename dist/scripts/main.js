@@ -600,10 +600,7 @@ const contaAsHoras = setInterval(function() {
     console.log(minutosAteOEvento);
     console.log(segundosAteOEvento);
     document.getElementById("contador").innerHTML = `${diasAteOEvento}d ${horasAteOEvento}h ${minutosAteOEvento}m ${segundosAteOEvento}s`;
-    if (distanciaAteOEvento < 0) {
-        clearInterval(contaAsHoras);
-        document.getElementById("contador").innerHTML = "Evento expirado";
-    }
+    document.getElementById("contador-texto").innerHTML = `${diasAteOEvento}d ${horasAteOEvento}h ${minutosAteOEvento}m ${segundosAteOEvento}s`;
 }, 1000);
 
 },{}]},["8bDoD","3cYfC"], "3cYfC", "parcelRequiref0d0")
